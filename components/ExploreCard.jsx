@@ -12,7 +12,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       index * 0.5, //index * 0.5 --> 1st one delay 0.5sec and 2nd delay 1sec so on.
       0.75 // duration
     )}
-    className={`relative ${
+    className={`relative ${ // 3.5 percent of the space of the entire width
       active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
     }
     flex items-center justify-center min-w-[170px] h-[700px] transition-[flex]
