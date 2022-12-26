@@ -1,8 +1,12 @@
 'use client';
 
 const Feedback = () => (
-  <section>
-    Feedback section
+  <section className="flex flex-col">
+    <h1>Feedback section | COMMING SOON </h1>
+    <h1>Feedback section </h1>
+    <h1>Feedback section </h1>
+ 
+
   </section>
 );
 

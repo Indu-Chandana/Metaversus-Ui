@@ -2,7 +2,7 @@
 
 const World = () => (
   <section>
-    World section
+    World section | COMMING SOON 
   </section>
 );
 
