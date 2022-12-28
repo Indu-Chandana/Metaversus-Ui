@@ -13,10 +13,10 @@ const Explore = () => {
   return (
     <section className={`${styles.paddings}`} id="explore">
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer} // render children animations
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false, amount: 0.25 }} // when u |once:true| It will be render only once. when |once:false| It will be render every time.
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| The World" textStyles="text-center" />

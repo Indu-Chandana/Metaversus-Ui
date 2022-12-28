@@ -7,13 +7,13 @@ import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10 `}>
     <div className="gradient-02 z-0" />
     <motion.div
-      variants={staggerContainer}
+      variants={staggerContainer} // render children animations
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0.25 }} // when u |once:true| It will be render only once. when |once:false| It will be render every time.
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText title="| About Metaversus" textStyles="text-center" />

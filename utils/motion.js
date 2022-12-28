@@ -1,7 +1,7 @@
 export const navVariants = {
   hidden: {
     opacity: 0,
-    y: -50,
+    y: -50, // default that is in the upper level
     transition: {
       type: 'spring',
       stiffness: 300,
